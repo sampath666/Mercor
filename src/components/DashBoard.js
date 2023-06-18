@@ -167,8 +167,6 @@ const DashBoard = () =>{
     const pro = board.filter(each => each.state==="onprogress")
     const done = board.filter(each => each.state==="done")
 
-
-
     const onDragEnd= (result) =>{
         const {source,destination} = result;
         console.log(result);
